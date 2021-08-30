@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="en">
+    <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/aboutMeStyle.css">
+    <!-- <title>Hello, world!</title> -->
+    </head>
+
+
+    <body>
+ 
+
+        <!-- <form  action="" method="post" enctype="text/plain"> -->
+        <form  id="form">
+
+
+            <!-- <div class="all_body"> -->
+                <section class="container">
+
+                    
+
+                    <br>
+                    <br>
+                    <br>
+                    <div class="container text-center letter2">
+                        <h1>¡Bienvenido A Tecla Developer Eric Rey!</h1>
+                    </div>
+                    <br>
+                    <br>
+                    <br>
+
+                    <div class="container cabecera-div">
+                        <div >
+                            <img src="/images/jperro.png" alt="" class="imgPrincipal">
+                        </div>
+                        <div >
+                            <h3>
+                                <p class="letter" >
+                                    Soy Tecla Developer y te doy la bienvenida a mi
+                                     Red Social donde podrás encontrar información sobre el
+                                      mundo del desarrollo web y  analisis de datos, aunque también 
+                                      encontraras algo sobre las TICS.
+                                      Mi principal objetivo es el de que desarrolladores tecla se 
+                                      conozcan y compartan codigo, ideas , etc
+                                </p>
+                            </h3>
+                        </div>
+                    </div>
+                <!-- </section> -->
+
+
+                <div class="container letter2">
+                    <br>
+                    <h2 class="text-center">¡Empezemos!</h2>
+                    <br>
+                </div>  
+
+                <div class="container cuerpo-div letter">
+                    <fieldset>
+                        <legend>Tu Foto</legend>
+                        
+                        <img src="/images/fotosp.jpg" alt="">
+                        <p>Sube una foto para tu perfil: <input type="file" name="artículo"/> </p>
+                    </fieldset>
+                </div>
+
+
+                    <div class=" container cuerpo-div letter">
+                            <div >
+                                <fieldset >
+                                    <legend>Nivel de estudios e intereses</legend> 
+                                    <p>Nivel de estudios<br/>
+                                    <input type="radio" name="estudios" value="Certificado escolar" checked="checked"/>Certificado escolar<br/>
+                                    <input type="radio" name="estudios" value="Graduado en E.S.O"/> Graduado en E.S.O.<br/>
+                                    <input type="radio" name="estudios" value="Bachiller - Formación Profesional"/> Bachiller - Formación Profesional <br/>
+                                    <input type="radio" name="estudios" value="Diplomado"/> Diplomado<br/>
+                                    <input type="radio" name="estudios" value="Licenciado o Doctorado"/> Licenciado o Doctorado</p>
+                                    <p>Recibir artículos sobre los siguientes temas: <br/>
+                                    <input type="checkbox" name="musica"/> Música<br/>
+                                    <input type="checkbox" name="deportes"/> Deportes<br/>
+                                    <input type="checkbox" name="cine"/> Cine<br/>
+                                    <input type="checkbox" name="libros"/> Libros<br/>
+                                    <input type="checkbox" name="ciencia"/> Ciencia</p>
+                                </fieldset>
+                            </div>
+                            <div class="cuerpo_img_div">
+                                <img src="/images/estudios.png" alt="" class="cuerpo_img">
+                            </div>
+                    </div>
+                <!-- </section>
+
+
+                <section class="container">  -->
+                    <div class=" container cuerpo-div letter">
+                            <div >
+                                <fieldset >
+                                    <legend>Ubicacion Geografica</legend> 
+                                    <p>¿De que Estado provienes?</p>
+                                    <!-- <legend>Lista de Estados de la República Mexicana</legend>
+                                    <legend>Estado de la República</legend> -->
+                                    <select name="estado">
+                                        <option value="no">Seleccione uno...</option>
+                                        <option value="Aguascalientes">Aguascalientes</option>
+                                        <option value="Baja California">Baja California</option>
+                                        <option value="Baja California Sur">Baja California Sur</option>
+                                        <option value="Campeche">Campeche</option>
+                                        <option value="Chiapas">Chiapas</option>
+                                        <option value="Chihuahua">Chihuahua</option>
+                                        <option value="CDMX">Ciudad de México</option>
+                                        <option value="Coahuila">Coahuila</option>
+                                        <option value="Colima">Colima</option>
+                                        <option value="Durango">Durango</option>
+                                        <option value="Estado de México">Estado de México</option>
+                                        <option value="Guanajuato">Guanajuato</option>
+                                        <option value="Guerrero">Guerrero</option>
+                                        <option value="Hidalgo">Hidalgo</option>
+                                        <option value="Jalisco">Jalisco</option>
+                                        <option value="Michoacán">Michoacán</option>
+                                        <option value="Morelos">Morelos</option>
+                                        <option value="Nayarit">Nayarit</option>
+                                        <option value="Nuevo León">Nuevo León</option>
+                                        <option value="Oaxaca">Oaxaca</option>
+                                        <option value="Puebla">Puebla</option>
+                                        <option value="Querétaro">Querétaro</option>
+                                        <option value="Quintana Roo">Quintana Roo</option>
+                                        <option value="San Luis Potosí">San Luis Potosí</option>
+                                        <option value="Sinaloa">Sinaloa</option>
+                                        <option value="Sonora">Sonora</option>
+                                        <option value="Tabasco">Tabasco</option>
+                                        <option value="Tamaulipas">Tamaulipas</option>
+                                        <option value="Tlaxcala">Tlaxcala</option>
+                                        <option value="Veracruz">Veracruz</option>
+                                        <option value="Yucatán">Yucatán</option>
+                                        <option value="Zacatecas">Zacatecas</option>
+                                    </select>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <div>
+                                        <p>¿De que Ciudad provienes?</p>
+                                        <input type="text" class="icd" name="ciudad">
+                                        <br>
+                                        <br>
+                                        <br>
+                                    </div>
+                                </fieldset>
+                            </div>
+                            <div class="cuerpo_img_div2" >
+                                <img src="/images/ubicacion.png" alt="" class="cuerpo_img2">
+                            </div>
+                    </div>
+                <!-- </section>
+
+
+                <section class="container"> -->
+                    <div class=" container cuerpo-div letter">
+                        <div >
+                            <fieldset >
+                                <legend>Mas acerca de ti </legend> 
+                                <p>¿Cual es tu link de "LINKEDIN"?</p>
+                                <input type="text" class="icd" name="linkedin">
+                                <br>
+                                <br>
+                                <br>
+                                <p>¿Tienes Hobbies?, ¿cuales?</p>
+                                <input type="text" class="icd" name="hobbie">
+                                <br>
+                                <br>
+                                <br>
+                                <p>¿Que idiomas dominas?</p>
+                                <input type="text" class="icd" name="idiomas">
+                                <br>
+                                <br>
+                                <br>
+                                <p>¿Cuentame sobre ti?
+                                <textarea name="aboutMeText" id="" cols="30" rows="10"></textarea></p>
+                                <!-- <input type="text" class="icd"> -->
+                                    <br>
+                                    <br>
+                                    <br>
+                        </div>
+                        <div class="cuerpo_img_div3" >
+                            <img src="/images/am.jpg" alt="" class="cuerpo_img3">
+                        </div>
+                    </div>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+            </section>
+            <!-- </div> -->
+            <button type="submit" class="btn btn-primary w-100" id="btnIniciarSesion">Guardar Datos</button>
+        </form>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <script src="/js/aboutme.js"></script>
+
+
+
+    </body>
+</html>
+
+    
+    
+    
+    
+    

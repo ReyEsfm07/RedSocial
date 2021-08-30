@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apock web design</title>
+    <link rel="stylesheet" type="text/css" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="/css/stylePerfil.css">
+</head>
+
+<body>
+
+
+<section class="perfil-usuario">
+    <div class="contenedor-perfil">
+        <div class="portada-perfil" style="background-image: url('/images/img.JPG');">
+            <div class="sombra"></div>
+            <div class="avatar-perfil">
+                <img src="/images/Capture.JPG" alt="img">
+                <a href="#" class="cambiar-foto">
+                    <i class="fas fa-camera"></i> 
+                    <span>Cambiar foto</span>
+                </a>
+            </div>
+            <div class="datos-perfil">
+                <h4 class="titulo-usuario">Eric Rey Cruz Martinez</h4>
+                <!-- ESTRELLAS -->
+                <!-- <span id="rateMe2"  class="empty-stars"></span> -->
+                <span class="fa fa-star" onclick="calificar(this)" style="cursor: pointer;" id="1estrellas"></span>
+                <span class="fa fa-star" onclick="calificar(this)" style="cursor: pointer;" id="2estrellas"></span>
+                <span class="fa fa-star" onclick="calificar(this)" style="cursor: pointer;" id="3estrellas"></span>
+                <span class="fa fa-star" onclick="calificar(this)" style="cursor: pointer;" id="4estrellas"></span>
+                <span class="fa fa-star" onclick="calificar(this)" style="cursor: pointer;" id="5estrellas"></span>
+
+                <p>.</p>
+                <p class="bio-usuario">GITHUB: <a href="https://github.com/ReyEsfm07" class="color_letter">https://github.com/ReyEsfm07</a></p>
+                <ul class="lista-perfil">
+                    <li>585 Seguidores</li>
+                    <li>7 Seguidos</li>
+                    <li>12 Publicaciones</li>
+                </ul>
+            </div>
+            <div class="opcciones-perfil">
+                <button type="">Cambiar portada</button>
+                <button type=""><i class="fas fa-wrench"></i></button>
+            </div> 
+        </div>
+        <div class="menu-perfil">
+            <ul>
+                <li><a href="#" title=""><i class="icono-perfil fas fa-bullhorn"></i> Publicaciones</a></li>
+                <li><a href="#" title=""><i class="icono-perfil fas fa-info-circle"></i> Informacion</a></li>
+                <li><a href="#" title=""><i class="icono-perfil fas fa-grin"></i> Amigos 843</a></li>
+                <li><a href="#" title=""><i class="icono-perfil fas fa-camera"></i> Fotos</a></li>
+            </ul>
+        </div>
+
+    </div>
+
+
+
+    <div class="container contenedor-perfil color_letter ">
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <!-- ACERCA DE Mi -->
+        <section class="about container">
+            <div class="about_texts ">
+                <h2 class="subtitle">Acerca de mi</h2>
+                <p class="about_paragraph">
+                    Programador con más de cinco años de experiencia generando código
+                     para empresas del sector bancario. Creé el nuevo portal web de Santander,
+                      el cual recibe más de 1 millón de visitas al día. Los errores reportados 
+                      en los micrositios del banco se redujeron en un 20% y la retención de usuarios incrementó en un 10%. 
+                      
+                </p>
+                <p class="about_paragraph">
+                    Especialista en solución de problemas y trabajo en equipo.
+                </p>
+            </div>
+            <figure class="about_img about_img--left">
+                <img src="/images/img9.png" alt="" srcset="" class="about_picture">
+            </figure>
+        </section>
+
+
+        <section>
+            <h2 class="subtitle">Mis Habilidades</h2>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <img src="/images/python.png" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="/images/js.png" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="/images/nodejs.png" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="/images/jquery.jpg" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="/images/mssql.png" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="/images/css.PNG" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="/images/mysql.PNG" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="/images/proba.PNG" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="/images/mongoDB.PNG" />
+                  </div>
+                </div>
+                <div class="swiper-pagination"></div>
+              </div>
+        </section>
+
+
+        <h2 class="subtitle">Mis Proyectos</h2>
+        <div class="projects_grid">
+            <article class="projects_item">
+                <img src="/images/proy1.jpg" alt="" class="projects_img">
+                <div class="projects_hover">
+                    <h2 class="projects_title">Carrito de compras</h2>
+                    <i class="far fa-file-alt projects_icon"></i>
+                </div>
+            </article>
+            <article class="projects_item">
+                <img src="/images/proy2.png" alt="" class="projects_img">
+                <div class="projects_hover">
+                    <h2 class="projects_title">Pagina de Construcion</h2>
+                    <i class="far fa-file-alt projects_icon"></i>
+                </div>
+            </article>
+            <article class="projects_item">
+                <img src="/images/proy3.jpg" alt="" class="projects_img">
+                <div class="projects_hover">
+                    <h2 class="projects_title">Chat</h2>
+                    <i class="far fa-file-alt projects_icon"></i>
+                </div>
+            </article>
+            <article class="projects_item">
+                <img src="/images/proy4.jpg" alt="" class="projects_img">
+                <div class="projects_hover">
+                    <h2 class="projects_title">Algoritmo Apriori</h2>
+                    <i class="far fa-file-alt projects_icon"></i>
+                </div>
+            </article>
+            <article class="projects_item">
+                <img src="/images/proy5.jpg" alt="" class="projects_img">
+                <div class="projects_hover">
+                    <h2 class="projects_title">Pagina Web</h2>
+                    <i class="far fa-file-alt projects_icon"></i>
+                </div>
+            </article>
+        </div>
+
+
+        <h1 class="heading">Comentarios</h1>
+        <section class="opiniones" id="opiniones">
+            
+            <div class="caja-contenedor">
+                <div class="caja">
+                    <i class="fas fa-atom">Tecla</i>
+                    <!-- <i class="fas fa-atom"></i> -->
+                    <div class="user">
+                        <img class="imgOp" src="/images/cara1.jpg" alt="">
+                        <h3>lucia cortez samora</h3>
+        
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="comentarios">
+                            Lorem ipsum, dolor sit amet consectetur 
+                            adipisicing elit. Distinctio facere atque 
+                            tenetur labore mollitia ut similique maiores 
+                            odit laudantium, quisquam cupiditate ab qui 
+                            tempore animi, ullam perferendis. Dolorem, asperiores 
+                            veniam?
+                        </div>
+        
+                    </div>
+                </div>
+            </div>
+        
+            <div class="caja-contenedor">
+                <div class="caja">
+                    <i class="fas fa-atom">Tecla</i>
+                    <div class="user">
+                        <img class="imgOp" src="/images/cara2.jfif" alt="">
+                        <h3>pedro soto perez</h3>
+        
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="comentarios">
+                            Lorem ipsum, dolor sit amet consectetur 
+                            adipisicing elit. Distinctio facere atque 
+                            tenetur labore mollitia ut similique maiores 
+                            odit laudantium, quisquam cupiditate ab qui 
+                            tempore animi, ullam perferendis. Dolorem, asperiores 
+                            veniam?
+                        </div>
+        
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <div class="caja-contenedor">
+                <div class="caja">
+                    <i class="fas fa-atom">Tecla</i>
+                    <div class="user">
+                        <img class="imgOp" src="/images/cara3.jpeg" alt="">
+                        <h3>casi reyna de españa</h3>
+        
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="comentarios">
+                            Lorem ipsum, dolor sit amet consectetur 
+                            adipisicing elit. Distinctio facere atque 
+                            tenetur labore mollitia ut similique maiores 
+                            odit laudantium, quisquam cupiditate ab qui 
+                            tempore animi, ullam perferendis. Dolorem, asperiores 
+                            veniam?
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+
+        </section>
+    </div>
+</section>
+
+
+
+<div class="mis-redes" style="display: block;position: fixed;bottom: 1rem;left: 1rem; opacity: 0.5; z-index: 1000;">
+    <p style="font-size: .75rem;">Tecla</p>
+    <div>
+        <a target="_blank" href="http://unbouncepages.com/tecla/"><i class="fab fa-facebook-square"></i></a>
+        <a target="_blank" href="http://unbouncepages.com/tecla/"><i class="fab fa-twitter"></i></a>
+        <a target="_blank" href="http://unbouncepages.com/tecla/"><i class="fab fa-instagram"></i></a>
+        <a target="_blank" href="http://unbouncepages.com/tecla/"><i class="fab fa-youtube"></i></a>
+    </div>
+</div>
+
+<!-- Swiper JS -->
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="/js/perfil.js"></script>
+</body>
+
+</html>
+
+
+
+
+

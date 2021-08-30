@@ -1,0 +1,97 @@
+
+body{
+    background: rgb(0, 0, 0);
+}
+section{
+    border: rgb(0, 1, 10) 10px solid;
+    background-image: linear-gradient(black, rgb(10, 10, 10), rgb(30, 30, 30),rgb(50, 50, 50));
+}
+.letter{
+    color: rgb(255, 255, 255);
+}
+.letter2{
+    color: rgb(231, 224, 255);
+}
+
+
+.cabecera-div{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    border: rgb(0, 2, 15) 10px solid;
+    background: rgb(15, 15, 15);
+}
+
+.cuerpo-div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: rgb(0, 1, 5) 10px solid;
+}
+
+
+/* Jack el perro */
+.imgPrincipal{
+    width: 400px;
+    height: 300px;
+}
+
+
+/* estudios */
+.cuerpo_img{
+    width: 500px;
+    height: 400px;
+
+}
+
+.cuerpo_img_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* ubicacion*/
+.cuerpo_img2{
+    display: block;
+    margin: auto;
+    width: 200px;
+    height: 250px;
+
+}
+.cuerpo_img_div2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* aboutme*/
+.cuerpo_img3{
+    display: block;
+    margin: auto;
+    width: 300px;
+    height: 400px;
+
+}
+.cuerpo_img_div3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+fieldset {
+    margin-left: 5em; 
+    margin-right: 5em;
+    margin-top: 2em;
+
+
+} 
+p { margin-left: 2em; }
+select{margin-left: 2em;}
+.icd{margin-left: 2em;}
+h2 { margin-left: 3em }

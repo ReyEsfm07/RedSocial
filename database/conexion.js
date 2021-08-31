@@ -1,7 +1,7 @@
   
 const Sequelize = require('sequelize');
 
-const sequelize =new Sequelize('proyectoRedSocial',null,null,{
+const sequelize =new Sequelize('',null,null,{
     dialect:'mssql',//process.env.DIALECT,//MYSQL,SQL SERVER ,PG SQL,MONGOODB
     server:'localhost',//process.env.HOST,
     port:1433,//process.env.PORT_MSSQL,
@@ -10,8 +10,8 @@ const sequelize =new Sequelize('proyectoRedSocial',null,null,{
             type:'default',
             options:{
                 encrypt:true,
-                userName:'sa',//process.env.USERNAME_MSSQL,
-                password:'12q3wa4esz'//process.env.PASSWORD
+                userName:,//process.env.USERNAME_MSSQL,
+                password://process.env.PASSWORD
             }
         }
     }

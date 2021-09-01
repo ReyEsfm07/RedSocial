@@ -49,14 +49,15 @@ app.get('/',(request,response)=>{
 const testConnection = async() =>{
     try {
 
-        await company.sync();
-        await registerUsersHierarchy.sync();
+
         //RECORDATORIO EL ORDEN IMPORTA COMO EN SQL
         await registerUsers.sync();
-        await informationProjectUsers.sync();
-        await opinionUsers.sync();
         await informationUsers.sync();
+        await informationProjectUsers.sync(); 
+        await opinionUsers.sync();
 
+        await company.sync();
+        await registerUsersHierarchy.sync();
 
         //AUTENTICAMOS LA CONEXION A LA BASE DE DATOS
         await sequelize.authenticate();
@@ -66,9 +67,9 @@ const testConnection = async() =>{
             console.log(`SUCCESSFUL SERVER http://localhost:${process.env.port}`);
         })
         }catch(error){
-        console.log("FAILED CONNECTION", error);
+        console.log("FAILED CONNECTION", error); 
         }
 }
 
 testConnection();
-
+ 

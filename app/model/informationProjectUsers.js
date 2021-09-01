@@ -29,7 +29,7 @@ let informationProjectTable = sequelize.define('informationProjectTable',{
         allowNull: true
     }
 },
- {
+ { 
     timestamps: true,
     createdAt: 'fecha_registro_projecto',
     updatedAt: 'fecha_actualizacion_projecto'

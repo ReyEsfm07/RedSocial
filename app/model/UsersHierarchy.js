@@ -3,7 +3,7 @@ let {DataTypes} = require('sequelize');
 let sequelize = require('../../database/conexion');
 
 
-let registerUsersHierarchyTable = sequelize.define('registerUsersTable',{
+let registerUsersHierarchyTable = sequelize.define('UserHierarchy',{
     id_UsersHierarchy: {
         primaryKey: true,
         autoIncrement: true,

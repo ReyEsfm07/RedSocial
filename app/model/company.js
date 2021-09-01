@@ -3,7 +3,7 @@ let {DataTypes} = require('sequelize');
 let sequelize = require('../../database/conexion');
 
 
-let companyTable = sequelize.define('registerUsersTable',{
+let companyTable = sequelize.define('Company',{
     id_Company: {
         primaryKey: true,
         autoIncrement: true,
